@@ -1,0 +1,328 @@
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+3,She 's now in Miami
+in,in
+3,She 's now in Miami
+in,in
+3,She 's now in Miami
+in,in
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,*
+*,*
+0,*
+*,*
+4,She 's now in Miami
+Miami,Miami
+3,She went to Miami to visit some friends
+Miami,Miami
+4,She 's now in Miami
+Miami,Miami
+3,She went to Miami to visit some friends
+Miami,Miami
+4,She 's now in Miami
+Miami,Miami
+3,She went to Miami to visit some friends
+Miami,Miami
+4,She 's now in Miami
+Miami,Miami
+3,She went to Miami to visit some friends
+Miami,Miami
+4,She 's now in Miami
+Miami,Miami
+3,She went to Miami to visit some friends
+Miami,Miami
+4,She 's now in Miami
+Miami,Miami
+3,She went to Miami to visit some friends
+Miami,Miami
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+7,She went to Miami to visit some friends
+friends,friends
+4,she went to her friend Ellen 's house
+friend,friend
+3,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+friends,friends
+8,Alyssa was happy to spend time with her friends again
+friends,friends
+7,She went to Miami to visit some friends
+friends,friends
+4,she went to her friend Ellen 's house
+friend,friend
+3,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+friends,friends
+8,Alyssa was happy to spend time with her friends again
+friends,friends
+7,She went to Miami to visit some friends
+friends,friends
+4,she went to her friend Ellen 's house
+friend,friend
+3,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+friends,friends
+8,Alyssa was happy to spend time with her friends again
+friends,friends
+7,She went to Miami to visit some friends
+friends,friends
+4,she went to her friend Ellen 's house
+friend,friend
+3,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+friends,friends
+8,Alyssa was happy to spend time with her friends again
+friends,friends
+7,She went to Miami to visit some friends
+friends,friends
+4,she went to her friend Ellen 's house
+friend,friend
+3,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+friends,friends
+8,Alyssa was happy to spend time with her friends again
+friends,friends
+7,She went to Miami to visit some friends
+friends,friends
+4,she went to her friend Ellen 's house
+friend,friend
+3,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+friends,friends
+8,Alyssa was happy to spend time with her friends again
+friends,friends
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+0,*
+*,*
+0,*
+*,*
+0,Alyssa got to the beach after a long trip
+Alyssa,Alyssa
+2,Ellen greeted Alyssa and they both had some lemonade to drink
+Alyssa,Alyssa
+0,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+Alyssa,Alyssa
+0,Alyssa enjoyed the restaurant 's special
+Alyssa,Alyssa
+0,Alyssa was happy to spend time with her friends again
+Alyssa,Alyssa
+7,But she wanted some time to herself at the beach
+at,at
+9,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+at,at
+7,But she wanted some time to herself at the beach
+at,at
+9,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+at,at
+7,But she wanted some time to herself at the beach
+at,at
+9,Alyssa called her friends Kristin and Rachel to meet at Ellen 's house
+at,at
+0,*
+*,*
+0,*
+*,*
+0,*
+*,*
+5,The girls went to a restaurant for dinner
+restaurant,restaurant
+1,The restaurant had a special on catfish
+restaurant,restaurant
+3,Alyssa enjoyed the restaurant 's special
+restaurant,restaurant
+1,Where was Mr
+was,was
+2,The bowl was empty--oh
+was,was

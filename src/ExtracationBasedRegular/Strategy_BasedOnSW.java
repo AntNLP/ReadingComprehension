@@ -137,7 +137,7 @@ public class Strategy_BasedOnSW {
 					}
 				}
 			}
-			distance = (1 / (story_word.length - 1)) * (distance + 1);
+			distance = (1 /(double) (story_word.length - 1)) * (distance + 1);
 		}
 		return distance;
 	}
@@ -162,6 +162,7 @@ public class Strategy_BasedOnSW {
 				System.out.println(word[i]+":"+maxScore);
 			}
 		}
+		System.out.println("q:"+question+",a:"+answer+"score:"+maxScore);
 		maxScore = maxScore - distanceBased(question, answer, story);
 		return maxScore;
 	}
@@ -169,6 +170,7 @@ public class Strategy_BasedOnSW {
 	public int[][] getAnswerResult() {
 		for (int i = 0; i < answer.length; i++) {
 			String story = content_preprocess(storyArg[i]);
+//			System.out.println(story);
 			for (int j = 0; j < answer[i].length; j++) {
 				double maxScore = 0;
 				int index = 0;

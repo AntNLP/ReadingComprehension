@@ -1,11 +1,16 @@
 package QABasedonDT;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import QABasedonDT.Sentense;
 import Tools.Tools;
 
-public class Word_Node {
+public class Word_Node implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/*************************
 	 * 属性
 	 */
@@ -24,6 +29,7 @@ public class Word_Node {
 	public String[] story;
 	public double[][] edge_feature;
 	public double[][] node_feature;
+	public double[][] answer_feature;
 	public Tools tools; 
 
 	/*********************************
@@ -159,6 +165,12 @@ public class Word_Node {
 	public void add_NodeFeautre(int index,double[] child_nodefeature,double[] nodefeature){
 		for(int i = 0;i < nodefeature.length;i++){
 			this.node_feature[index][i] += child_nodefeature[i]+ nodefeature[i];
+		}
+	}
+	
+	public void add_AnswerFeature(int index,double[] child_answerfeature,double[] answerfeature){
+		for(int i = 0;i < answerfeature.length;i++){
+			this.answer_feature[index][i] += child_answerfeature[i]+ answerfeature[i];
 		}
 	}
 	

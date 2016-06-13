@@ -249,7 +249,7 @@ public class Corpus {
 	}
 	
 	public void printt3(){
-		//coreferenceUsing();
+		coreferenceUsing();
 		Strategy_BasedOnSW s = new Strategy_BasedOnSW(storyArg, question, answer);
 		s.evaluate();
 		//s.test();

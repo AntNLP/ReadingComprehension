@@ -1,14 +1,20 @@
 package QABasedonDT;
 
+import java.io.Serializable;
+
 import Tools.Tools;
 
-public class Story {
+public class Story implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/*************************
 	 * 属性
 	 */
-	String content;
-	Sentense[] sentenses;
-	String[] sentense_string;
+	public String content;
+	public Sentense[] sentenses;
+	public String[] sentense_string;
 	static Tools tools = new Tools();
 
 	/*********************************

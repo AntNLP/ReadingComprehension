@@ -1,18 +1,39 @@
 package QABasedonDT;
 
+import java.util.ArrayList;
+
 public class Answer {
+	/***
+	 * @author chenruili
+	 */
+	
 	String content;
-	double[] edge_feature;
-	double[] node_feature;
-	double[] global_feature;
+	double[] queEdgeFeature;
+	double[] queNodeFeature;
+	double[] ansEdgeFeature;
+	double[] ansNodeFeature;
+	ArrayList<Double> globalFeature;
+	ArrayList<Double> pairFeature;
+	ArrayList<Double> singleFeature;
+	ArrayList<Double> frameFeature;
+	ArrayList<Double> iframeFeature;
 	double score;
 	double attribute;
 	
-	public Answer(String content,double [] edge_feature,double[] node_feature,double[] global_feature,double attribute,double score){
+	public Answer(String content,double [] queEdgeFeature,double[] queNodeFeature,
+			double[] ansEdgeFeature, double[] ansNodeFeature,ArrayList<Double> globalFeature,
+			ArrayList<Double> pairFeature,ArrayList<Double> singleFeature, ArrayList<Double> frameFeature,
+			ArrayList<Double> iframeFeature,double attribute,double score){
 		this.content = content;
-		this.edge_feature = edge_feature;
-		this.node_feature = node_feature;
-		this.global_feature = global_feature;
+		this.queEdgeFeature = queEdgeFeature;
+		this.queNodeFeature = queNodeFeature;
+		this.ansEdgeFeature = ansEdgeFeature;
+		this.ansNodeFeature = ansNodeFeature;
+		this.globalFeature = globalFeature;
+		this.pairFeature = pairFeature;
+		this.singleFeature = singleFeature;
+		this.frameFeature = frameFeature;
+		this.iframeFeature = iframeFeature;
 		this.attribute = attribute;
 		this.score = score;
 	}

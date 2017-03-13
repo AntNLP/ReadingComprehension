@@ -7,66 +7,64 @@ import java.io.File;
 import Tools.Semafor;
 import Tools.Tools;
 
-public class Question extends Sentence implements Serializable {
+public class Statement extends Sentence implements Serializable {
 	/***
 	 * @author chenruili
 	 */
 	private static final long serialVersionUID = 1L;
-
+	
 	String content;
 	WordNode[] wordNodes;
-	String type;
 	static Tools tools = new Tools();
 	public WordNode root;
 	public Boolean isFrameNull;
 	public ArrayList<Frame> frameList;
 	public ArrayList<String> tokenList;
 
-	public Question() {
+	public Statement() {
 		isFrameNull = true;
-		frameList = new ArrayList<>();
-		tokenList = new ArrayList<>();
+		this.frameList = new ArrayList<>();
+		this.tokenList = new ArrayList<>();
 	}
 
 	/***
 	 * 
-	 * @param question content
-	 * @param question type(mul/single)
-	 * @return question object instance
+	 * @param the hypothesis content
+	 * @return the statement object instance
 	 */
-	public static Question getNewQuestion(String content, String type) {
-		Question question = new Question();
-		question.content = content;
-		question.type = type;
-		question.wordNodes = Question.tools.parse(content);
-		question.root = getRoot(question.wordNodes);
-		return question;
+	public static Statement getNewStatement(String content) {
+		Statement statement = new Statement();
+		statement.content = content;
+		statement.wordNodes = tools.parse(content);
+		statement.root = getRoot(statement.wordNodes);
+		return statement;
 	}
 
 	/***
-	 * @function conduct semafor process for question
-	 * @param question array
+	 * @function conduct semafor process for hypothesis
+	 * @param statement array
 	 * @param dataSetType
 	 * @param start
 	 * @param end
 	 */
-	public static void questionSemafor(Question[][] questions, String dataType, int start, int end) {
+	public static void statementSemafor(Statement[][][] statements, String dataType,int start,int end) {
 		Semafor semafor = new Semafor();
 		semafor.setFilePath(dataType);
 		boolean first = true;
 		for (int i1 = start; i1 < end; i1++) {
-			for (int i2 = 0; i2 < questions[i1].length; i2++) {
-				try {
-					semafor.fileWriter(questions[i1][i2].content, first);
-					first = false;
-				} catch (Exception e) {
-					e.printStackTrace();
+			for (int i2 = 0; i2 < statements[i1].length; i2++) {
+				for (int i3 = 0; i3 < statements[i1][i2].length; i3++) {
+					try {
+						semafor.fileWriter(statements[i1][i2][i3].content, first);
+						first = false;
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
 				}
-
 			}
 		}
 		File outfile = semafor.scriptCall();
-		semafor.jsonQuestionRead(questions, outfile, start, end);
+		semafor.jsonStatementRead(statements,outfile,start,end);
 	}
 
 	public String getContent() {
@@ -92,7 +90,7 @@ public class Question extends Sentence implements Serializable {
 		this.isFrameNull = isFrameNull;
 	}
 
-	public void setFrameList(ArrayList<Frame> frameList) {
-		this.frameList = frameList;
+	public void setFramesList(ArrayList<Frame> frame_list) {
+		this.frameList = frame_list;
 	}
 }

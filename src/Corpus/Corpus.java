@@ -2,32 +2,13 @@ package Corpus;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
 import java.util.Scanner;
 
-import Test.GetTestData;
-import edu.stanford.nlp.dcoref.CorefChain;
-import edu.stanford.nlp.dcoref.CorefCoreAnnotations;
-import edu.stanford.nlp.io.IOUtils;
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.ling.CoreAnnotations.ForcedSentenceEndAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.util.CoreMap;
-
 public class Corpus {
-	static int info = 9999;
+	/***
+	 * @author chenruili
+	 */
 	private String path;
-
 	String[] storyArg;
 	String[][] question;
 	String[][][] answer;
@@ -38,6 +19,7 @@ public class Corpus {
 	String story;
 	Boolean isAnswer = false;
 	Boolean isStory = false;
+	int lineLimit = 6;
 
 	public Corpus() {
 
@@ -51,9 +33,15 @@ public class Corpus {
 		for (int i = 0; i < storyArg.length; i++) {
 			storyArg[i] = "";
 		}
+		if(path.contains("mc160")){
+			lineLimit = 4;
+		}
 		read();
 	}
 
+	/***
+	 * @function read the corpus data
+	 */
 	public void read() {
 		try {
 			Scanner in = new Scanner(new File(path));
@@ -68,13 +56,17 @@ public class Corpus {
 		
 	}
 
+	/***
+	 * conduct analysis for the corpus data
+	 * @param str
+	 */
 	private void seperate(String str) {
 		if (str.contains("***")) {
 			storyCount++;
 			line = 0;
 			isStory = true;
 		}
-		if (line > 6 && isStory) {
+		if (line > lineLimit && isStory) {
 			if (str.contains(": multiple:") || str.contains(": one:")) {
 				// question[storyCount][questionCount] = str.toLowerCase();
 				question[storyCount][questionCount] = str;
